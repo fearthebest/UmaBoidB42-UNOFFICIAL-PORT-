@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\GrassWonderUmaRapHat.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\GrassWonderUmaRapHat.FBX</m_FemaleModel>
+	<m_GUID>ff90a2bd-5ba1-40da-b4d5-67f63a873704</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\GrassWonderUmaRapHat</textureChoices>
+</clothingItem>

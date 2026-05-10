@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\SasamiEyeMask.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\SasamiEyeMask.FBX</m_FemaleModel>
+	<m_GUID>d4c0a228-b0c3-4902-81b2-45244fd6be27</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\AnshinzawaSasamiAtlas</textureChoices>
+</clothingItem>

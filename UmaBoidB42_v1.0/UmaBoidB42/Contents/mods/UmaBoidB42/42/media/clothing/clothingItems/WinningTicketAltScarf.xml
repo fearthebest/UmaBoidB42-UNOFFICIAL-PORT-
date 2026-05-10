@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\WinningTicketAltScarf.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\WinningTicketAltScarf.FBX</m_FemaleModel>
+	<m_GUID>a820433b-d54a-4a7d-9d98-f775cc5406a1</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\WinningTicketAltScarfToolbeltAtlas</textureChoices>
+</clothingItem>

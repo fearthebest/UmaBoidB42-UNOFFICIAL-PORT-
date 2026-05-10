@@ -1,0 +1,100 @@
+module Base
+{
+	sound GrassWonderStaffHit
+	{	category = World,
+		clip
+		{
+			file = media/sound/grasswonderstaffhit.wav,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 0.65,
+		}	
+	}
+	sound MachanBombActivate
+	{	category = Item,
+		clip
+		{
+			file = media/sound/AstonMachanPlushieBombThrow.ogg,
+			distanceMin = 0,
+			distanceMax = 50,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 0.6,
+		}	
+	}
+	sound MachanBombThrow1
+	{	category = Item,
+		clip
+		{
+			file = media/sound/AstonMachanPlushieBombSwing1.ogg,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+	sound MachanBombThrow2
+	{	category = Item,
+		clip
+		{
+			file = media/sound/AstonMachanPlushieBombSwing2.ogg,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+	sound MachanBombCraft
+	{	category = Item,
+		clip
+		{
+			file = media/sound/AstonMachanPlushieBombCrafted.ogg,
+			distanceMin = 0,
+			distanceMax = 60,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+	sound ZennoRobRoyClaymoreHit
+	{	category = Item,
+		clip
+		{
+			file = media/sound/zennorobroyclaymorehit.ogg,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+	sound ZennoRobRoyClaymoreSwing
+	{	category = Item,
+		clip
+		{
+			file = media/sound/zennorobroyclaymorehitswing.ogg,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+	sound ZennoRobRoyClaymoreHitWorld
+	{	category = Item,
+		clip
+		{
+			file = media/sound/zennorobroyclaymorehitworld.ogg,
+			distanceMin = 0,
+			distanceMax = 40,
+			reverbMaxRange = 30,
+			reverbFactor = 1,
+			volume = 1.0,
+		}	
+	}
+
+}

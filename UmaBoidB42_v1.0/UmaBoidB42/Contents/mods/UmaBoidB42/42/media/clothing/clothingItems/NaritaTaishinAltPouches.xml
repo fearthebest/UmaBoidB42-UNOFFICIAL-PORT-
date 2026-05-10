@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\NaritaTaishinAltPouches.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\NaritaTaishinAltPouches.FBX</m_FemaleModel>
+	<m_GUID>b02b526b-6c51-4710-9ae6-e8352b34f9e2</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\NaritaTaishinAltPouchesAtlas</textureChoices>
+</clothingItem>

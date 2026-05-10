@@ -1,0 +1,955 @@
+module Base
+{
+	model GrassWonderNaginata
+	{
+		mesh = weapons/2handed/GrassWonderNaginata,
+
+		attachment world
+		{
+			offset = 0.0000 0.0500 0.0000,
+			rotate = 90.0000 0.0000 90.0000,
+		}
+	}
+	item GrassWonderNaginata
+	{
+        DisplayCategory 					= WeaponCrafted,
+        MaxRange							=	2.4,
+        WeaponSprite						=	GrassWonderNaginata,
+        MinAngle							=	0.8,
+        ItemType = base:weapon,
+        MinimumSwingTime					=	2.0 ,
+        KnockBackOnNoDeath					=	FALSE,
+        SwingAmountBeforeImpact				=	0.02,
+        Categories	=	Improvised;Spear,
+        ConditionLowerChanceOneIn			=	35,
+        Weight								=	2.8,
+        SplatNumber							=	3,
+        PushBackMod							=	0.2,
+        SubCategory							=	Spear,
+        ConditionMax						=	10,
+        MaxHitCount							=	3,
+        DoorDamage							=	5,
+        SwingAnim							=	Spear,
+        DisplayName							=	Grass Wonder's Naginata,
+        MinRange							=	0.85,
+        SwingTime							=	2.0,
+        KnockdownMod						=	0,
+        SplatBloodOnNoDeath					=	FALSE,
+        Icon								=	grasswondernaginata,
+        RunAnim								=	Run_Weapon2,
+        IdleAnim							=	Idle_Weapon2,
+        TreeDamage  						=   1,
+        TwoHandWeapon 						= TRUE,
+        CriticalChance						=	25,
+        CritDmgMultiplier 					= 8,
+        MinDamage							=	2.4,
+        MaxDamage							=	2.5,
+        BaseSpeed 							= 0.93,
+        DamageCategory 						= Slash,
+        DamageMakeHole 						= TRUE,
+        BreakSound  						=   SpearMacheteBreak,
+        HitFloorSound						=	SpearMacheteHit,
+        ImpactSound							=	SpearMacheteHit,
+        DoorHitSound 						= SpearMacheteHit,
+        HitSound							=	SpearMacheteHit,
+        SwingSound							=	SpearMacheteSwing,
+        SoundMap 							= SpearStab SpearMacheteStab,
+		AttachmentType 						= Shovel,
+        Tags 								= FishingSpear,
+		DisplayCategory = Weapon,
+    }
+	
+	model EishinFlashSword
+	{
+		mesh = weapons/1handed/EishinFlashSword,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	item EishinFlashSword
+	{
+		MaxRange	=	1.7,
+		WeaponSprite	=	EishinFlashSword,
+		MinAngle	=	0.8,
+		ItemType = base:weapon,
+		MinimumSwingTime	=	1.6,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	35,
+		Weight	=	2.3,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.7,
+		ConditionMax	=	10,
+		MaxHitCount	=	2,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	5,
+		SwingAnim	=	Stab,
+		DisplayName	=	Eishin Flash's Sword,
+		MinRange							=	0.66,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	1.7,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	eishinflashsword,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   1,
+        EnduranceMod = 0.7,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	35,
+        CritDmgMultiplier = 6,
+        MinDamage	=	3.0,
+        MaxDamage	=	3.5,
+	 	WeaponLength = 0.30,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = FishingSpear,
+		BaseSpeed = 0.97,
+		DisplayCategory = Weapon,
+    }
+
+	model WonderAcuteUmbrella
+	{
+		mesh = weapons/2handed/WonderAcuteUmbrella,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	item WonderAcuteUmbrella
+	{
+        DisplayCategory = Weapon,
+        MaxRange							=	1.4,
+        WeaponSprite						=	WonderAcuteUmbrella,
+        MinAngle							=	0.8,
+        ItemType = base:weapon,
+        MinimumSwingTime					=	1.6 ,
+        KnockBackOnNoDeath					=	FALSE,
+        SwingAmountBeforeImpact				=	0.02,
+        Categories	=	Improvised;Spear,
+        ConditionLowerChanceOneIn			=	20,
+        Weight								=	1,
+        SplatNumber							=	2,
+        PushBackMod							=	0.2,
+        SubCategory							=	Spear,
+        ConditionMax						=	5,
+        MaxHitCount							=	3,
+        DoorDamage							=	2,
+        SwingAnim							=	Spear,
+        DisplayName							=	Wonder Acute's Umbrella,
+        MinRange							=	0.66,
+        SwingTime							=	2,
+        KnockdownMod						=	0,
+        SplatBloodOnNoDeath					=	FALSE,
+        Icon								=	wonderacuteumbrella,
+        RunAnim								=	Run_Weapon2,
+        IdleAnim							=	Idle_Weapon2,
+        TreeDamage  						=   0,
+        TwoHandWeapon 						= TRUE,
+        CriticalChance						=	20,
+        CritDmgMultiplier 					= 4,
+        MinDamage							=	1.0,
+        MaxDamage							=	1.1,
+        BaseSpeed 							= 0.95,
+        DamageCategory 						= Slash,
+        DamageMakeHole 						= TRUE,
+        BreakSound  =   UmbrellaBreak,
+        HitFloorSound	=	UmbrellaHit,
+        ImpactSound	=	UmbrellaHit,
+        DoorHitSound = UmbrellaHit,
+        HitSound	=	UmbrellaHit,
+        SwingSound = UmbrellaSwing,
+		AttachmentType = Knife,
+        Tags 								= FishingSpear,
+    }
+
+	model MejiroBrightUmbrellaOpen
+	{
+		mesh = weapons/2handed/MejiroBrightUmbrellaOpen,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	item MejiroBrightUmbrellaOpen
+	{
+        DisplayCategory = Weapon,
+        MaxRange							=	1.4,
+        WeaponSprite						=	MejiroBrightUmbrellaOpen,
+        MinAngle							=	0.8,
+        ItemType = base:weapon,
+        MinimumSwingTime					=	1.6 ,
+        KnockBackOnNoDeath					=	FALSE,
+        SwingAmountBeforeImpact				=	0.02,
+        Categories	=	Improvised;Spear,
+        ConditionLowerChanceOneIn			=	20,
+        Weight								=	1,
+        SplatNumber							=	2,
+        PushBackMod							=	0.2,
+        SubCategory							=	Spear,
+        ConditionMax						=	5,
+        MaxHitCount							=	3,
+        DoorDamage							=	2,
+        SwingAnim							=	Spear,
+        DisplayName							=	Mejiro Bright's Umbrella (Open),
+        MinRange							=	0.66,
+        SwingTime							=	2,
+        KnockdownMod						=	0,
+        SplatBloodOnNoDeath					=	FALSE,
+        Icon								=	mejirobrightumbrellaopen,
+        RunAnim								=	Run_Weapon2,
+        IdleAnim							=	Idle_Weapon2,
+        TreeDamage  						=   0,
+        TwoHandWeapon 						= TRUE,
+        CriticalChance						=	20,
+        CritDmgMultiplier 					= 4,
+        MinDamage							=	1.0,
+        MaxDamage							=	1.1,
+        BaseSpeed 							= 0.95,
+        DamageCategory 						= Slash,
+        DamageMakeHole 						= TRUE,
+        BreakSound  =   UmbrellaBreak,
+        HitFloorSound	=	UmbrellaHit,
+        ImpactSound	=	UmbrellaHit,
+        DoorHitSound = UmbrellaHit,
+        HitSound	=	UmbrellaHit,
+        SwingSound = UmbrellaSwing,
+        AttachmentType = Knife,
+        Tags = FishingSpear,
+    }
+
+	model MejiroBrightUmbrellaClose
+	{
+		mesh = weapons/1handed/MejiroBrightUmbrellaClose,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	item MejiroBrightUmbrellaClose
+	{
+        DisplayCategory = Weapon,
+        MaxRange							=	1.4,
+        WeaponSprite						=	MejiroBrightUmbrellaClose,
+        MinAngle							=	0.8,
+        ItemType = base:weapon,
+        MinimumSwingTime					=	1.6 ,
+        KnockBackOnNoDeath					=	FALSE,
+		IsAimedHandWeapon	=	TRUE,
+        SwingAmountBeforeImpact				=	0.02,
+        Categories	=	Improvised;LongBlade,
+        ConditionLowerChanceOneIn			=	25,
+        Weight								=	1,
+        SplatNumber							=	2,
+        PushBackMod							=	0.1,
+        SubCategory							=	Spear,
+		CloseKillMove = Jaw_Stab,
+        ConditionMax						=	5,
+        MaxHitCount							=	2,
+        DoorDamage							=	2,
+        SwingAnim							=	Stab,
+        DisplayName							=	Mejiro Bright's Umbrella (Close),
+        MinRange							=	0.66,
+        SwingTime							=	1.7,
+        KnockdownMod						=	0,
+        SplatBloodOnNoDeath					=	FALSE,
+        Icon								=	mejirobrightumbrellaclose,
+        RunAnim								=	Run_Weapon2,
+        IdleAnim							=	Idle_Weapon2,
+        TreeDamage  						=   0,
+        CriticalChance						=	40,
+        CritDmgMultiplier 					= 4,
+        MinDamage							=	1.0,
+        MaxDamage							=	1.0,
+        BaseSpeed 							= 0.95,
+        DamageCategory 						= Slash,
+        DamageMakeHole 						= TRUE,
+        BreakSound  =   UmbrellaBreak,
+        HitFloorSound	=	UmbrellaHit,
+        ImpactSound	=	UmbrellaHit,
+        DoorHitSound = UmbrellaHit,
+        HitSound	=	UmbrellaHit,
+        SwingSound = UmbrellaSwing,
+		 AttachmentType = Knife,
+        Tags 								= FishingSpear,
+    }
+
+	model SweepToshoBroom
+	{
+		mesh = weapons/2handed/SweepToshoBroom,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	item SweepToshoBroom
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	2.0,
+        WeaponSprite	=	SweepToshoBroom,
+        MinAngle	=	0.95,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	1.9,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;Blunt,
+        ConditionLowerChanceOneIn	=	15,
+        Weight	=	3.0,
+        SplatNumber	=	2,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	8,
+        MaxHitCount	=	3,
+        DoorDamage	=	3,
+        SwingAnim	=	Bat,
+        DisplayName	=	Sweep Tosho's Broom,
+        MinRange							=	0.67,
+        SwingTime	=	2.1,
+        KnockdownMod	=	1.5,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	sweeptoshobroom,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   CanoePaddleBreak,
+        DoorHitSound = CanoePaddleHit,
+		HitSound = CanoePaddleHit,
+		HitFloorSound = CanoePaddleHit,
+		SwingSound = CanoePaddleSwing,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	60,
+        CritDmgMultiplier = 2,
+        MinDamage	=	1.1,
+        MaxDamage	=	1.2,
+        BaseSpeed = 0.98,
+        AttachmentType = Shovel,
+    }
+
+    	model KitasanBlackMochiMallet
+	{
+		mesh = weapons/2handed/KitasanBlackMochiMallet,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	item KitasanBlackMochiMallet
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	1.55,
+        WeaponSprite	=	KitasanBlackMochiMallet,
+        MinAngle	=	0.95,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	2.4,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;Blunt,
+        ConditionLowerChanceOneIn	=	15,
+        Weight	=	2.8,
+        SplatNumber	=	2,
+        PushBackMod	=	0.6,
+        SubCategory	=	Swinging,
+        ConditionMax	=	10,
+        MaxHitCount	=	4,
+        DoorDamage	=	10,
+        SwingAnim	=	Heavy,
+        DisplayName	=	Kitasan Black's Mochi Mallet,
+        MinRange							=	0.67,
+        SwingTime	=	2.6,
+        KnockdownMod	=	3,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	kitasanblackmochimallet,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   CanoePaddleBreak,
+        DoorHitSound = CanoePaddleHit,
+		HitSound = CanoePaddleHit,
+		HitFloorSound = CanoePaddleHit,
+		SwingSound = CanoePaddleSwing,
+        TreeDamage  =   0,
+        AlwaysKnockdown = TRUE,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=   60,
+        CritDmgMultiplier = 3,
+        MinDamage	=	1.1,
+        MaxDamage	=	1.4,
+        BaseSpeed = 0.9,
+        AttachmentType = Shovel,
+    }
+
+    model SymboliRudolfAcheryTarget
+	{
+		mesh = weapons/2handed/SymboliRudolfArcheryTarget,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 180.0000 90.0000 0.0000,
+		}
+	}
+
+	item SymboliRudolfAcheryTarget
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	2.1,
+        WeaponSprite	=	SymboliRudolfAcheryTarget,
+        MinAngle	=	0.90,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	2.2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;Blunt,
+        ConditionLowerChanceOneIn	=	20,
+        Weight	=	3.0,
+        SplatNumber	=	2,
+        PushBackMod	=	0.5,
+        SubCategory	=	Swinging,
+        ConditionMax	=	8,
+        MaxHitCount	=	3,
+        DoorDamage	=	3,
+        SwingAnim	=	Bat,
+        DisplayName	=	Symboli Rudolf's Archery Target,
+        MinRange							=	0.67,
+        SwingTime	=	2.8,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	symbolirudolfarcherytarget,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   CanoePaddleBreak,
+        DoorHitSound = CanoePaddleHit,
+		HitSound = CanoePaddleHit,
+		HitFloorSound = CanoePaddleHit,
+		SwingSound = CanoePaddleSwing,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	40,
+        CritDmgMultiplier = 2,
+        MinDamage	=	0.9,
+        MaxDamage	=	1.2,
+        BaseSpeed = 1.00,
+        AttachmentType = Shovel,
+    }
+
+    model ZennoRobRoyClaymore
+	{
+		mesh = weapons/2handed/ZennoRobRoyClaymore,
+
+		attachment world
+		{
+			offset = 0.0000 0.1500 0.1500,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	item ZennoRobRoyClaymore
+    {
+        DisplayCategory = Weapon,
+        EnduranceMod = 3.0,
+        MaxRange	=	1.8,
+        WeaponSprite	=	ZennoRobRoyClaymore,
+        MinAngle	=	0.9,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	3.0,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	LongBlade,
+        ConditionLowerChanceOneIn	=	30,
+        Weight	=	3.8,
+        SplatNumber	=	2,
+        PushBackMod	=	1,
+        SubCategory	=	Swinging,
+        ConditionMax	=	15,
+        MaxHitCount	=	4,
+        DoorDamage	=	40,
+        SwingAnim	=	Bat,
+        DisplayName	=	Zenno Rob Roy's Claymore,
+        MinRange	=	0.7,
+        SwingTime	=	3.0,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	zennorobroyclaymore,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   KatanaBreak,
+        DoorHitSound = ZennoRobRoyClaymoreHitWorld,
+		HitSound = ZennoRobRoyClaymoreHit,
+		HitFloorSound = ZennoRobRoyClaymoreHitWorld,
+		SwingSound = ZennoRobRoyClaymoreSwing,
+        TreeDamage  =   35,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	50,
+        CritDmgMultiplier = 5,
+        MinDamage	=	4.2,
+        MaxDamage	=	8,
+        BaseSpeed = 0.90,
+        WeaponLength = 0.4,
+        AttachmentType = BigBlade,
+        Tags = ChopTree;CutPlant,
+    }
+
+	model UmaGolfClub
+	{
+		mesh = weapons/2handed/UmaGolfClub,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	item UmaGolfClub
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	1.7,
+        WeaponSprite	=	UmaGolfClub,
+        MinAngle	=	0.95,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	1.8,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;Blunt,
+        ConditionLowerChanceOneIn	=	25,
+        Weight	=	2.0,
+        SplatNumber	=	2,
+        PushBackMod	=	0.5,
+        SubCategory	=	Swinging,
+        ConditionMax	=	8,
+        MaxHitCount	=	4,
+        DoorDamage	=	8,
+        SwingAnim	=	Bat,
+        DisplayName	=	Uma Golf Club,
+        MinRange							=	0.67,
+        SwingTime	=	1.9,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	umagolfclub,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   LeadPipeBreak,
+        DoorHitSound = LeadPipeHit,
+		HitSound = LeadPipeHit,
+		HitFloorSound = LeadPipeHit,
+		SwingSound = LeadPipeSwing,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	40,
+        CritDmgMultiplier = 3,
+        MinDamage	=	1.3,
+        MaxDamage	=   1.3,
+        BaseSpeed = 0.98,
+        AttachmentType = Shovel,
+    }
+
+	model BambooMemoryShinai
+	{
+		mesh = weapons/2handed/BambooMemoryShinai,
+
+		attachment world
+		{
+			offset = 0.0000 0.3010 0.0000,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	item BambooMemoryShinai
+    {
+        DisplayCategory = Weapon,
+        MaxRange	=	1.7,
+        WeaponSprite	=	BambooMemoryShinai,
+        MinAngle	=	0.95,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	1.9,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Improvised;Blunt,
+        ConditionLowerChanceOneIn	=	30,
+        Weight	=	2.3,
+        SplatNumber	=	2,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	8,
+        MaxHitCount	=	3,
+        DoorDamage	=	5,
+        SwingAnim	=	Bat,
+        DisplayName	=	Bamboo Memory's Shinai,
+        MinRange							=	0.66,
+        SwingTime	=	2.1,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	bamboomemoryshinai,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   CanoePaddleBreak,
+        DoorHitSound = CanoePaddleHit,
+		HitSound = CanoePaddleHit,
+		HitFloorSound = CanoePaddleHit,
+		SwingSound = CanoePaddleSwing,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	30,
+        CritDmgMultiplier = 3,
+        MinDamage	=	1.1,
+        MaxDamage	=	1.2,
+        BaseSpeed = 0.96,
+        AttachmentType = Shovel,
+    }
+
+
+	model TMOperaOStaff
+	{
+		mesh = weapons/1handed/TMOperaOStaff,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	item TMOperaOStaff
+	{
+		DisplayCategory = Weapon,
+        TwoHandWeapon 						= TRUE,
+		MaxRange	=	1.4,
+		WeaponSprite	=	TMOperaOStaff,
+		MinAngle	=	0.8,
+		ItemType = base:weapon,
+		MinimumSwingTime	=	1.6,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Spear,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	1.3,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Spear,
+		AimingMod	=	0.8,
+		ConditionMax	=	9,
+		MaxHitCount	=	2,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	2,
+		SwingAnim	=	Spear,
+		DisplayName	=	TM Opera O's Staff,
+		MinRange							=	0.66,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	1.6,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	tmoperaostaff,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   1,
+        EnduranceMod = 0.7,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	25,
+        CritDmgMultiplier = 4,
+        MinDamage	=	0.9,
+        MaxDamage	=	1.1,
+	 	WeaponLength = 0.30,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = FishingSpear,
+		BaseSpeed = 0.95,
+    }
+
+	model AnshinsawaNeedle
+	{
+		mesh = weapons/1handed/AnshinsawaNeedle,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+
+    /*This one ain't spawning in the wild boss*/
+	item AnshinsawaNeedle
+	{
+	    DisplayCategory = Weapon,
+		MaxRange	=	0.8,
+		WeaponSprite	=	AnshinsawaNeedle,
+		MinAngle	=	0.65,
+		ItemType = base:weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;Blade,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	0.1,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+        CloseKillMove = Jaw_Stab,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	0,
+		SwingAnim	=	Stab,
+		DisplayName	=	Sasami Anshinsawa's Needle,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	sasamineedle,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   0,
+        EnduranceMod = 0.5,
+        CriticalChance	=	0,
+        MinDamage	=	0.4,
+        MaxDamage	=	0.4,
+		WeaponLength = 0.20,
+		Tags = Write;Pencil,
+        BreakSound  =   PenBreak,
+        HitFloorSound	= PenHit,
+        ImpactSound	=	PenHit,
+        DoorHitSound = PenHit,
+		HitSound	=	PenHit,
+		SwingSound = PenSwing,
+	}
+
+	model GrassWonderStaff
+	{
+		mesh = weapons/1handed/GrassWonderStaff,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	model DaiwaScarletStaff
+	{
+		mesh = weapons/1handed/DaiwaScarletStaff,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+
+	/* Needs extensive custom Lua and Testing */
+	item GrassWonderStaff
+	{
+		MaxRange	=	12,
+		WeaponSprite	=	GrassWonderStaff,
+		MinAngle	=	0.8,
+		ItemType = base:weapon,
+		MinimumSwingTime	=	2.5,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.01,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	18,
+		Weight	=	2,
+		SplatNumber	=	4,
+		PushBackMod	=	0.8,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=  8,
+		MaxHitCount	=	6,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	50,
+		SwingAnim	=	Stab,
+		DisplayName	=	Grass Wonder's Staff,
+		MinRange	=	1,
+		SwingTime	=	2.6,
+		KnockdownMod	=	1.5,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	grasswonderstaff,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   50,
+        EnduranceMod = 0.6,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	20,
+        CritDmgMultiplier = 2,
+        MinDamage	=	8,
+        MaxDamage	=	9,
+        ExtraDamage = 20,
+	 	WeaponLength = 0.8,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	GrassWonderStaffHit,
+        ImpactSound	=	GrassWonderStaffHit,
+        DoorHitSound = GrassWonderStaffHit,
+		HitSound	=	GrassWonderStaffHit,
+		SwingSound = GrassWonderStaffHit,
+		AttachmentType = Shovel,
+        Tags = Sledgehammer,
+		BaseSpeed = 1.2
+    }
+
+	item DaiwaScarletStaff
+	{
+		MaxRange	=	12,
+		WeaponSprite	=	DaiwaScarletStaff,
+		MinAngle	=	0.8,
+		ItemType = base:weapon,
+		MinimumSwingTime	=	2.5,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.01,
+		Categories	=	Improvised;LongBlade,
+		ConditionLowerChanceOneIn	=	18,
+		Weight	=	2,
+		SplatNumber	=	4,
+		PushBackMod	=	0.8,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=  8,
+		MaxHitCount	=	6,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	50,
+		SwingAnim	=	Stab,
+		DisplayName	=	Daiwa Scarlet's Staff,
+		MinRange	=	1,
+		SwingTime	=	2.6,
+		KnockdownMod	=	1.5,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	daiwascarletstaff,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   50,
+        EnduranceMod = 0.6,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	20,
+        CritDmgMultiplier = 2,
+        MinDamage	=	8,
+        MaxDamage	=	9,
+        ExtraDamage = 20,
+	 	WeaponLength = 0.8,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	GrassWonderStaffHit,
+        ImpactSound	=	GrassWonderStaffHit,
+        DoorHitSound = GrassWonderStaffHit,
+		HitSound	=	GrassWonderStaffHit,
+		SwingSound = GrassWonderStaffHit,
+		AttachmentType = Shovel,
+        Tags = Sledgehammer,
+		BaseSpeed = 1.2
+    }
+
+    /*Effect for Grass' Staff */
+    item GrassWonderStaffFX
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        ItemType = base:normal,
+        DisplayName	=	Grass Wonder's Staff FX,
+        Icon	=	grasswonderstaffhitsfx1,
+    }
+
+	model AstonMachanBomb
+	{
+		mesh = weapons/AstonMachanBomb,
+		texture = Items/AstonMachanMiniAtlas,
+	}
+
+	 item AstonMachanBomb
+	{
+        DisplayCategory = Explosives,
+        MaxRange	=	9,
+        ItemType = base:weapon,
+        MinimumSwingTime	=	1.5,
+		SwingAnim	=	Throw,
+        WeaponSprite = AstonMachanBomb,
+        UseSelf	=	TRUE,
+        DisplayName	=	Aston Machan Plushie Bomb,
+        SwingTime	=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject	=	Aerosolbomb,
+        MinDamage	=	0,
+        Weight	=	1.0,
+        MaxDamage	=	0,
+        MaxHitCount	=	0,
+        Icon	=	astonmachanalt,
+		ExplosionPower  =   0,
+		ExtraDamage		=	80,
+		ExplosionRange  =   8,
+		triggerExplosionTimer   =   100,
+        ExplosionSound  =   MachanBombActivate,
+		SwingSound = AerosolBombThrow,
+        Tooltip = Tooltip_Trap,
+        WorldStaticModel = AstonMachanBomb,
+	}
+
+	/* Fixing Recipe */
+	
+	fixing Fix Grass Wonder's Naginata
+	{
+	   Require : GrassWonderNaginata,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+	
+	fixing Fix Eishin Flash's Sword
+	{
+	   Require : EishinFlashSword,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+    fixing Fix Bamboo Memory's Shinai
+	{
+	   Require : BambooMemoryShinai,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+
+    fixing Fix Zenno Rob Roy's Claymore
+	{
+	   Require : ZennoRobRoyClaymore,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+}

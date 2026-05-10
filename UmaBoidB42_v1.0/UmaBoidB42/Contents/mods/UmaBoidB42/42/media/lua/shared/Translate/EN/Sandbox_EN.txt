@@ -1,0 +1,13 @@
+Sandbox_EN = {
+    Sandbox_UmaBoid_Settings = "UmaBoid Mod Settings",
+    Sandbox_UmaBoid_LootGenericWeapon = "Generic Weapon Spawn Rate",
+    Sandbox_UmaBoid_LootGenericWeapon_tooltip = "Adjust weapons spawn rate for the generic UmaBoid weapons. <br> 5 being the original default rate",
+    Sandbox_UmaBoid_LootHeavyWeapon = "Heavy Weapon Spawn Rate",
+    Sandbox_UmaBoid_LootHeavyWeapon_tooltip = "Adjust weapons spawn rate for the heavy and stronger UmaBoid weapons. <br> 5 being the original default rate",
+    Sandbox_UmaBoid_LootMagicWeapon = "Magic Weapon Spawn Rate",
+    Sandbox_UmaBoid_LootMagicWeapon_tooltip = "Adjust weapons spawn rate for the magical UmaBoid weapons. <br> This includes Grass wonder's and Daiwa Scarlet's Staff. <br> 5 being the original default rate",
+    Sandbox_UmaBoid_LootConsumable = "Consumable Loot Spawn Rate",
+    Sandbox_UmaBoid_LootConsumable_tooltip = "Adjust consumable items spawn rate. <br> 5 being the original default rate",
+    Sandbox_UmaBoid_LootBook = "Uma Book Loot Spawn Rate",
+    Sandbox_UmaBoid_LootBook_tooltip = "Adjust Uma Book spawn rate. <br> 5 being the original default rate"
+}

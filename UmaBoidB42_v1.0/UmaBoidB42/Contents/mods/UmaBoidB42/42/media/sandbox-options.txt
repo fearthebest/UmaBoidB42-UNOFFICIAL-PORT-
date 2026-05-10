@@ -1,0 +1,51 @@
+VERSION = 1,
+
+option UmaBoid.GenericWeaponLoot
+{
+    type = integer,
+    default = 5,
+    min = 0,
+    max = 10,
+    page = UmaBoid_Settings,
+    translation = UmaBoid_LootGenericWeapon,
+}
+
+option UmaBoid.HeavyWeaponLoot
+{
+    type = integer,
+    default = 5,
+    min = 0,
+    max = 10,
+    page = UmaBoid_Settings,
+    translation = UmaBoid_LootHeavyWeapon,
+}
+
+option UmaBoid.MagicWeaponLoot
+{
+    type = integer,
+    default = 5,
+    min = 0,
+    max = 10,
+    page = UmaBoid_Settings,
+    translation = UmaBoid_LootMagicWeapon,
+}
+
+option UmaBoid.ConsumableLoot
+{
+    type = integer,
+    default = 5,
+    min = 0,
+    max = 10,
+    page = UmaBoid_Settings,
+    translation = UmaBoid_LootConsumable,
+}
+
+option UmaBoid.BookLoot
+{
+    type = integer,
+    default = 5,
+    min = 0,
+    max = 10,
+    page = UmaBoid_Settings,
+    translation = UmaBoid_LootBook,
+}
