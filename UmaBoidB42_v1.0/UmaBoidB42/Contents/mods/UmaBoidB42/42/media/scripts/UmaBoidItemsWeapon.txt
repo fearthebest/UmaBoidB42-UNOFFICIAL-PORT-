@@ -767,6 +767,7 @@ module Base
 	/* Needs extensive custom Lua and Testing */
 	item GrassWonderStaff
 	{
+		DisplayCategory = Weapon,
 		MaxRange	=	12,
 		WeaponSprite	=	GrassWonderStaff,
 		MinAngle	=	0.8,
@@ -818,6 +819,7 @@ module Base
 
 	item DaiwaScarletStaff
 	{
+		DisplayCategory = Weapon,
 		MaxRange	=	12,
 		WeaponSprite	=	DaiwaScarletStaff,
 		MinAngle	=	0.8,
