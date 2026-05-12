@@ -917,41 +917,41 @@ module Base
 	
 	fixing Fix Grass Wonder's Naginata
 	{
-	   Require : GrassWonderNaginata,
+	   Require = Base.GrassWonderNaginata,
 
-       Fixer : Woodglue=2; Woodwork=2,
-       Fixer : DuctTape=2,
-       Fixer : Glue=2,
-       Fixer : Scotchtape=4,
+       Fixer = Base.Woodglue=2; Woodwork=2,
+       Fixer = Base.DuctTape=2,
+       Fixer = Base.Glue=2,
+       Fixer = Base.Scotchtape=4,
 	}
 	
 	fixing Fix Eishin Flash's Sword
 	{
-	   Require : EishinFlashSword,
+	   Require = Base.EishinFlashSword,
 
-       Fixer : Woodglue=2; Woodwork=2,
-       Fixer : DuctTape=2,
-       Fixer : Glue=2,
-       Fixer : Scotchtape=4,
+       Fixer = Base.Woodglue=2; Woodwork=2,
+       Fixer = Base.DuctTape=2,
+       Fixer = Base.Glue=2,
+       Fixer = Base.Scotchtape=4,
 	}
 
     fixing Fix Bamboo Memory's Shinai
 	{
-	   Require : BambooMemoryShinai,
+	   Require = Base.BambooMemoryShinai,
 
-       Fixer : Woodglue=2; Woodwork=2,
-       Fixer : DuctTape=2,
-       Fixer : Glue=2,
-       Fixer : Scotchtape=4,
+       Fixer = Base.Woodglue=2; Woodwork=2,
+       Fixer = Base.DuctTape=2,
+       Fixer = Base.Glue=2,
+       Fixer = Base.Scotchtape=4,
 	}
 
     fixing Fix Zenno Rob Roy's Claymore
 	{
-	   Require : ZennoRobRoyClaymore,
+	   Require = Base.ZennoRobRoyClaymore,
 
-       Fixer : Woodglue=2; Woodwork=2,
-       Fixer : DuctTape=2,
-       Fixer : Glue=2,
-       Fixer : Scotchtape=4,
+       Fixer = Base.Woodglue=2; Woodwork=2,
+       Fixer = Base.DuctTape=2,
+       Fixer = Base.Glue=2,
+       Fixer = Base.Scotchtape=4,
 	}
 }
