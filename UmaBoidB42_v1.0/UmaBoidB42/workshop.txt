@@ -1,4 +1,4 @@
-version=1
+version=1.3
 id=3722974110
 title=UmaBoid B42 [ UNOFFICIAL PORT]
 description=Hi all survivors ^_^.
