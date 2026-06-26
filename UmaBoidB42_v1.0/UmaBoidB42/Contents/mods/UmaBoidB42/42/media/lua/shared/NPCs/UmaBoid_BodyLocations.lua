@@ -17,6 +17,6 @@ local customIds = {
 }
 
 for _, id in ipairs(customIds) do
-    local loc = ItemBodyLocation.register(id)
+    local loc = ItemBodyLocation.get(ResourceLocation.of(id))
     group:getOrCreateLocation(loc)
 end

@@ -1,28 +1,41 @@
+if isClient() then return end
+
 require "Items/ProceduralDistributions"
 require "Items/Distributions"
-local _pdl = ProceduralDistributions.list
-local i
+
+local UmaBoidDistributions = {}
+
+local genericWeaponsRate = 1
+local heavyWeaponsRate = 1
+local magicWeaponsRate = 1
+local consumablesRate = 1.25
+local booksRate = 1
 
 local function insertTableSafe(listName, pairTable)
-    local bucket = _pdl and _pdl[listName]
+    local bucket = ProceduralDistributions.list[listName]
     if not bucket or type(bucket.items) ~= "table" then
         return
     end
 
-    local t1 = bucket.items
-    local n = #t1
-    for i = 1, #pairTable do
-        t1[n + i] = pairTable[i]
+    for i = 1, #pairTable, 2 do
+        table.insert(bucket.items, pairTable[i])
+        table.insert(bucket.items, pairTable[i + 1])
     end
 end
 
--- Spawn rate based on sandbox (defensive: table missing if sandbox script fails to load)
-local umaboidVars = SandboxVars.UmaBoid or {}
-local genericWeaponsRate = (umaboidVars.GenericWeaponLoot or 5) * 0.2
-local heavyWeaponsRate = (umaboidVars.HeavyWeaponLoot or 5) * 0.2
-local magicWeaponsRate = (umaboidVars.MagicWeaponLoot or 5) * 0.2
-local consumablesRate = (umaboidVars.ConsumableLoot or 5) * 0.25
-local booksRate = (umaboidVars.BookLoot or 5) * 0.2
+local function initSandboxRates()
+    local umaboidVars = SandboxVars.UmaBoid or {}
+    genericWeaponsRate = (umaboidVars.GenericWeaponLoot or 5) * 0.2
+    heavyWeaponsRate = (umaboidVars.HeavyWeaponLoot or 5) * 0.2
+    magicWeaponsRate = (umaboidVars.MagicWeaponLoot or 5) * 0.2
+    consumablesRate = (umaboidVars.ConsumableLoot or 5) * 0.25
+    booksRate = (umaboidVars.BookLoot or 5) * 0.2
+end
+
+local function applyDistributions()
+    if UmaBoidDistributions.done then return end
+    UmaBoidDistributions.done = true
+
 -- Weapons
 
 insertTableSafe("MeleeWeapons", {"Base.GrassWonderNaginata"     ,2 * heavyWeaponsRate })
@@ -398,4 +411,12 @@ insertTableSafe("MagazineRackMixed", { _number ,1*booksRate})
 insertTableSafe("PostOfficeMagazines", { _number ,0.5*booksRate})
 insertTableSafe("ShelfGeneric", { _number ,0.1*booksRate})
 
+end
 
+Events.OnInitGlobalModData.Add(initSandboxRates)
+
+if Events.OnPostDistributionMerge then
+    Events.OnPostDistributionMerge.Add(applyDistributions)
+else
+    Events.OnInitGlobalModData.Add(applyDistributions)
+end
