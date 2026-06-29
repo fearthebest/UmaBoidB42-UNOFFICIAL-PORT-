@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\SymboliRudolfCasualBag.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\SymboliRudolfCasualBag.FBX</m_FemaleModel>
+	<m_GUID>a398cc69-7a99-4c7c-abf5-aa46df99b25f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\SymboliRudolfCasualBag</textureChoices>
+</clothingItem>

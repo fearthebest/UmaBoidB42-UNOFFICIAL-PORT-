@@ -4,33 +4,33 @@ Unofficial Build 42 compatibility port of **UmaBoid** (Uma Musume costumes for P
 
 | | |
 |---|---|
-| **Version** | 1.3 |
-| **Target build** | B42 |
+| **Version** | 1.3.3 |
+| **Target build** | B42 Unstable (42.18+) |
 | **Mod ID** | `UmaBoidB42` |
 | **Maintainer** | IKappaID (port only) |
 
 ## Overview
 
-This port adapts the original UmaBoid costume mod for Project Zomboid Build 42. Changes are limited to script syntax, item display categories, distributions, and registry updates required for B42 load order.
+This port adapts the original UmaBoid costume mod for Project Zomboid Build 42. Changes include script syntax, item display categories, distributions, registry updates, and dedicated MP fixes for costume switching.
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-└── UmaBoidB42_v1.0/
-    └── UmaBoidB42/                # Workshop upload package
-        ├── workshop.txt
-        └── Contents/
-            └── mods/
-                └── UmaBoidB42/42/
-                    ├── mod.info
-                    └── media/
+├── workshop.txt
+├── preview.png          # optional Workshop preview
+└── Contents/
+    └── mods/
+        └── UmaBoidB42/
+            ├── mod.info
+            ├── 42/
+            └── 42.18/
 ```
 
 ## Installation
 
-1. Copy `UmaBoidB42_v1.0/UmaBoidB42/` to your Workshop content folder, or extract `Contents/mods/UmaBoidB42` into `%UserProfile%\Zomboid\mods\`.
+1. Copy this repository (or the Workshop upload folder) into your Steam Workshop content path, or extract `Contents/mods/UmaBoidB42` into `%UserProfile%\Zomboid\mods\`.
 2. Enable **UmaBoid (Uma Musume Costumes for Project Zomboid) - B42 Port** in the mod list.
 
 ## Credit
@@ -40,7 +40,7 @@ This port adapts the original UmaBoid costume mod for Project Zomboid Build 42. 
 
 ## Links
 
-- **Upstream:** search Steam Workshop for the original UmaBoid release
+- **Repository:** https://github.com/fearthebest/UmaBoidB42-UNOFFICIAL-PORT-
 - **Maintainer:** https://github.com/fearthebest
 
 This is an unofficial port. Not affiliated with upstream authors or The Indie Stone.

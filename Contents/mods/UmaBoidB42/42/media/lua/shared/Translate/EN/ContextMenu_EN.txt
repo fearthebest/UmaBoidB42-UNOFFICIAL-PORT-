@@ -1,0 +1,13 @@
+ContextMenu_EN = {
+    ContextMenu_Umaboid_ToggleItems = "Toggle items display",
+	ContextMenu_Umaboid_SwapBamboo = "Change headband",
+	ContextMenu_Umaboid_SwitchAlt  = "Switch to Alt",
+	ContextMenu_Umaboid_SwitchCasual  = "Switch to Casual",
+	ContextMenu_Umaboid_SwapShakur  = "Toggle Hood/Hat",
+	ContextMenu_Umaboid_SwapHeadAcc  = "Toggle Hood/Hat",
+	ContextMenu_Umaboid_UmaRap = "UMARap",
+	ContextMenu_Umaboid_SwitchRace = "Switch to Race",
+	ContextMenu_Umaboid_ToggleHeliosSleeve = "Toggle Sleeve",
+	ContextMenu_Umaboid_ToggleKisekiHair = "Change Hair",
+	ContextMenu_Umaboid_SwitchUniform = "Switch to Uniform",
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\WinningTicketAltGogglesFace.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\WinningTicketAltGogglesFace.FBX</m_FemaleModel>
+	<m_GUID>dfb65ccd-e2ef-40a7-8fce-995793995f36</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\WinningTicketGoggles</textureChoices>
+</clothingItem>

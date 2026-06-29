@@ -1,0 +1,2073 @@
+module Base
+{
+	craftRecipe AdmireVegaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AdmireVegaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AdmireVega,
+		}
+	}
+	craftRecipe AgnesDigitalCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AgnesDigitalCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AgnesDigital,
+		}
+	}
+	craftRecipe AgnesTachyonCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AgnesTachyonCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AgnesTachyon,
+		}
+	}
+	craftRecipe AirGrooveCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AirGrooveCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AirGroove,
+		}
+	}
+	craftRecipe AirShakurCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AirShakurCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AirShakur,
+		}
+	}
+	craftRecipe AoiKiryuinCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AoiKiryuinCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AoiKiryuin,
+		}
+	}
+	craftRecipe AstonMachanCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.AstonMachanCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AstonMachan,
+		}
+	}
+	craftRecipe BambooMemoryCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.BambooMemoryCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.BambooMemory,
+		}
+	}
+	craftRecipe BikoPegasusCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.BikoPegasusCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.BikoPegasus,
+		}
+	}
+	craftRecipe BitterGlaceCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.BitterGlaceCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.BitterGlace,
+		}
+	}
+	craftRecipe BiwaHayahideCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.BiwaHayahideCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.BiwaHayahide,
+		}
+	}
+	craftRecipe ByerleyTurkCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ByerleyTurkCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ByerleyTurk,
+		}
+	}
+	craftRecipe ChevalGrandCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ChevalGrandCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ChevalGrand,
+		}
+	}
+	craftRecipe CopanoRickeyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.CopanoRickeyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.CopanoRickey,
+		}
+	}
+	craftRecipe CurrenChanCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.CurrenChanCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.CurrenChan,
+		}
+	}
+	craftRecipe DaiichiRubyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.DaiichiRubyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.DaiichiRuby,
+		}
+	}
+	craftRecipe DaitakuHeliosCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.DaitakuHeliosCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.DaitakuHelios,
+		}
+	}
+	craftRecipe DaiwaScarletCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.DaiwaScarletCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.DaiwaScarlet,
+		}
+	}
+	craftRecipe DarleyArabianCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.DarleyArabianCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.DarleyArabian,
+		}
+	}
+	craftRecipe FujiKisekiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.FujiKisekiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.FujiKiseki,
+		}
+	}
+	craftRecipe EishinFlashCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.EishinFlashCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.EishinFlash,
+		}
+	}
+	craftRecipe ElCondorPasaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ElCondorPasaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ElCondorPasa,
+		}
+	}
+	craftRecipe EtsukoOtonashiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.EtsukoOtonashiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.EtsukoOtonashi,
+		}
+	}
+	craftRecipe FineMotionCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.FineMotionCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.FineMotion,
+		}
+	}
+	craftRecipe GodolphinBarbCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.GodolphinBarbCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.GodolphinBarb,
+		}
+	}
+	craftRecipe GoldCityCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.GoldCityCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.GoldCity,
+		}
+	}
+	craftRecipe GoldShipCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.GoldShipCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.GoldShip,
+		}
+	}
+	craftRecipe GrassWonderCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.GrassWonderCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.GrassWonder,
+		}
+	}
+	craftRecipe HappyMeekCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HappyMeekCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HappyMeek,
+		}
+	}
+	craftRecipe HaruUraraCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HaruUraraCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HaruUrara,
+		}
+	}
+	craftRecipe HishiAkebonoCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HishiAkebonoCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HishiAkebono,
+		}
+	}
+	craftRecipe HishiAmazonCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HishiAmazonCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HishiAmazon,
+		}
+	}
+	craftRecipe HishiMiracleCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HishiMiracleCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HishiMiracle,
+		}
+	}
+	craftRecipe HokkoTarumaeCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.HokkoTarumaeCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.HokkoTarumae,
+		}
+	}
+	craftRecipe IkunoDictusCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.IkunoDictusCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.IkunoDictus,
+		}
+	}
+	craftRecipe InariOneCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.InariOneCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.InariOne,
+		}
+	}
+	craftRecipe InesFujinCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.InesFujinCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.InesFujin,
+		}
+	}
+	craftRecipe JunglePocketCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.JunglePocketCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.JunglePocket,
+		}
+	}
+	craftRecipe KatsuragiAceCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.KatsuragiAceCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.KatsuragiAce,
+		}
+	}
+	craftRecipe KawakamiPrincessCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.KawakamiPrincessCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.KawakamiPrincess,
+		}
+	}
+	craftRecipe KingHaloCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.KingHaloCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.KingHalo,
+		}
+	}
+	craftRecipe KitasanBlackCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.KitasanBlackCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.KitasanBlack,
+		}
+	}
+	craftRecipe KSMiracleCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.KSMiracleCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.KSMiracle,
+		}
+	}
+	craftRecipe LightHelloCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.LightHelloCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.LightHello,
+		}
+	}
+	craftRecipe LittleCoconCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.LittleCoconCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.LittleCocon,
+		}
+	}
+	craftRecipe ManhattanCafeCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ManhattanCafeCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ManhattanCafe,
+		}
+	}
+	craftRecipe MaruzenskyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MaruzenskyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.Maruzensky,
+		}
+	}
+	craftRecipe MarvelousSundayCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MarvelousSundayCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MarvelousSunday,
+		}
+	}
+	craftRecipe FukukitaruCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.FukukitaruCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MatikaneFukukitaru,
+		}
+	}
+	craftRecipe TannhauserCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TannhauserCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MatikaneTannhauser,
+		}
+	}
+	craftRecipe MayanoTopGunCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MayanoTopGunCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MayanoTopGun,
+		}
+	}
+	craftRecipe MeishoDotoCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MeishoDotoCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MeishoDoto,
+		}
+	}
+	craftRecipe MejiroArdanCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroArdanCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroArdan,
+		}
+	}
+	craftRecipe MejiroBrightCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroBrightCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroBright,
+		}
+	}
+	craftRecipe MejiroDoberCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroDoberCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroDober,
+		}
+	}
+	craftRecipe MejiroMcQueenCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroMcQueenCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroMcQueen,
+		}
+	}
+	craftRecipe MejiroRamonuCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroRamonuCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroRamonu,
+		}
+	}
+	craftRecipe MejiroPalmerCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroPalmerCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroPalmer,
+		}
+	}
+	craftRecipe MejiroRyanCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MejiroRyanCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MejiroRyanHairMain,
+		}
+	}
+	craftRecipe MihonoBourbonCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MihonoBourbonCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MihonoBourbon,
+		}
+	}
+	craftRecipe MontjeuCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MontjeuCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.Montjeu,
+		}
+	}
+	craftRecipe MrCBCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.MrCBCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.MrCB,
+		}
+	}
+	craftRecipe NakayamaFestaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NakayamaFestaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NakayamaFesta,
+		}
+	}
+	craftRecipe NaritaBrianCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NaritaBrianCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NaritaBrian,
+		}
+	}
+	craftRecipe NaritaTaishinCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NaritaTaishinCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NaritaTaishin,
+		}
+	}
+	craftRecipe NaritaTopRoadCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NaritaTopRoadCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NaritaTopRoad,
+		}
+	}
+	craftRecipe NeoUniverseCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NeoUniverseCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NeoUniverse,
+		}
+	}
+	craftRecipe NiceNatureCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NiceNatureCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NiceNature,
+		}
+	}
+	craftRecipe NishinoFlowerCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.NishinoFlowerCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.NishinoFlower,
+		}
+	}
+	craftRecipe OguriCapCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.OguriCapCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.OguriCap,
+		}
+	}
+	craftRecipe RiceShowerCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.RiceShowerCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.RiceShower,
+		}
+	}
+	craftRecipe RikoKashimotoCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.RikoKashimotoCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.RikoKashimoto,
+		}
+	}
+	craftRecipe SakuraBakushinOCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SakuraBakushinOCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SakuraBakushinO,
+		}
+	}
+	craftRecipe SakuraChiyonoOCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SakuraChiyonoOCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SakuraChiyonoO,
+		}
+	}
+	craftRecipe SakuraLaurelCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SakuraLaurelCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SakuraLaurel,
+		}
+	}
+	craftRecipe SasamiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SasamiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SasamiAnshinzawa,
+		}
+	}
+	craftRecipe SatonoCrownCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SatonoCrownCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SatonoCrown,
+		}
+	}
+	craftRecipe SatonoDiamondCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SatonoDiamondCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SatonoDiamond,
+		}
+	}
+	craftRecipe SeiunSkyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SeiunSkyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SeiunSky,
+		}
+	}
+	craftRecipe SeekingThePearlCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SeekingThePearlCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SeekingThePearl,
+		}
+	}
+	craftRecipe ShinkoWindyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ShinkoWindyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ShinkoWindy,
+		}
+	}
+	craftRecipe SilenceSuzukaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SilenceSuzukaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SilenceSuzuka,
+		}
+	}
+	craftRecipe SmartFalconCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SmartFalconCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SmartFalcon,
+		}
+	}
+	craftRecipe SpecialWeekCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SpecialWeekCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SpecialWeek,
+		}
+	}
+	craftRecipe SuperCreekCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SuperCreekCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SuperCreek,
+		}
+	}
+	craftRecipe SweepToshoCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SweepToshoCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SweepTosho,
+		}
+	}
+	craftRecipe SymboliKrisSCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SymboliKrisSCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SymboliKrisS,
+		}
+	}
+	craftRecipe SymboliRudolfCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SymboliRudolfCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SymboliRudolf,
+		}
+	}
+	craftRecipe SymboliSiriusCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.SymboliSiriusCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.SymboliSiriusUniform,
+		}
+	}
+	craftRecipe TaikiShuttleCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TaikiShuttleCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TaikiShuttle,
+		}
+	}
+	craftRecipe TamamoCrossCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TamamoCrossCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TamamoCross,
+		}
+	}
+	craftRecipe TapDanceCityCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TapDanceCityCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TapDanceCity,
+		}
+	}
+	craftRecipe TaninoGimletCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TaninoGimletCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TaninoGimlet,
+		}
+	}
+	craftRecipe TazunaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TazunaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TazunaHayakawa,
+		}
+	}
+	craftRecipe TMOperaOCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TMOperaOCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TMOperaO,
+		}
+	}
+	craftRecipe TokaiTeioCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TokaiTeioCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TokaiTeio,
+		}
+	}
+	craftRecipe TosenJordanCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TosenJordanCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TosenJordan,
+		}
+	}
+	craftRecipe TsurumaruTsuyoshiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TsurumaruTsuyoshiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TsurumaruTsuyoshi,
+		}
+	}
+	craftRecipe TwinTurboCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.TwinTurboCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.TwinTurbo,
+		}
+	}
+	craftRecipe VodkaCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.VodkaCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.UmaVodka,
+		}
+	}
+	craftRecipe WinningTicketCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.WinningTicketCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.WinningTicket,
+		}
+	}
+	craftRecipe WonderAcuteCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.WonderAcuteCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.WonderAcute,
+		}
+	}
+	craftRecipe YaenoMutekiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.YaenoMutekiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.YaenoMuteki,
+		}
+	}
+	craftRecipe YamaninZephyrCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.YamaninZephyrCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.YamaninZephyr,
+		}
+	}
+	craftRecipe YayoiCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.YayoiCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.YayoiAkikawa,
+		}
+	}
+	craftRecipe YukinoBijinCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.YukinoBijinCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.YukinoBijin,
+		}
+	}
+	craftRecipe ZennoRobRoyCrafted
+	{
+		timedAction = SewingCloth,
+		time = 200,
+		OnCreate = Recipe.OnCreate.ZennoRobRoyCrafted,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 25 [Base.RippedSheets] mode:destroy,
+			item 5 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.ZennoRobRoy,
+		}
+	}
+
+	craftRecipe UmaCraftToughness
+	{
+		timedAction = MixingBowl,
+		time = 60,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		NeedToBeLearn = true,
+		inputs
+		{
+			item 1 [Base.WaterBottleFull] mode:destroy,
+			item 2 [Base.Sugar] mode:destroy,
+		}
+		outputs
+		{
+			item 1 Base.Toughness,
+		}
+	}
+
+	craftRecipe CraftAstonMachanBomb
+	{
+		timedAction = Making,
+		time = 120,
+		Tags = InHandCraft,
+		category = UmaBoid,
+		inputs
+		{
+			item 1 [Base.Aerosolbomb] mode:destroy,
+			item 10 [Base.RippedSheets] mode:destroy,
+			item 3 [Base.Thread] mode:destroy,
+			item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Base.AstonMachanBomb,
+		}
+	}
+}

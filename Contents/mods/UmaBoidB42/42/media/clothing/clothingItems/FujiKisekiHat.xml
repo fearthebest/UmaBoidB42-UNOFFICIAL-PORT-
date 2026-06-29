@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\FujiKisekiHat.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\FujiKisekiHat.FBX</m_FemaleModel>
+	<m_GUID>dd8ca0d2-5dda-41e7-9c01-334ba504659d</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\Extra\FujiKisekiHat</textureChoices>
+</clothingItem>

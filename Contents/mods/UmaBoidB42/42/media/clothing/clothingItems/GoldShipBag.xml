@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Misc\GoldShipBag.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Misc\GoldShipBag.FBX</m_FemaleModel>
+	<m_GUID>712d44bf-f5dc-4ae7-b8a4-b2db98b9eedb</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\Character\GoldShipAtlas</textureChoices>
+</clothingItem>
