@@ -6,6 +6,11 @@ require "TimedActions/ISWearClothing"
 require "TimedActions/ISEatFoodAction"
 require "UmaBoid_Shared"
 
+local COSTUME_LOC = ItemBodyLocation.get(ResourceLocation.of("umaboid:costume"))
+if WearClothingAnimations and COSTUME_LOC then
+    WearClothingAnimations[COSTUME_LOC] = "Feet"
+end
+
 local original_ISWearClothing_perform = ISWearClothing.perform
 function ISWearClothing:perform()
     original_ISWearClothing_perform(self)
@@ -20,7 +25,7 @@ function ISWearClothing:perform()
     end
 
     local bodyLoc = item:getBodyLocation()
-    if bodyLoc == nil or bodyLoc ~= ItemBodyLocation.SHOES then
+    if bodyLoc == nil or bodyLoc ~= COSTUME_LOC then
         return
     end
 
@@ -45,7 +50,7 @@ function ISEatFoodAction:perform()
     local pct = self.percentage or 1
 
     if UmaBoid.requestAuthorityAction() then
-        sendClientCommand(UmaBoid.MOD_ID, UmaBoid.CMD.ToughnessPain, {
+        sendClientCommand(self.character, UmaBoid.MOD_ID, UmaBoid.CMD.ToughnessPain, {
             itemType = itemName,
             pct = pct,
         })

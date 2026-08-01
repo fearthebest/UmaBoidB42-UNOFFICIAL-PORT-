@@ -38,7 +38,7 @@ function UmaBoidSwitchContext.onSwitch(item, targetType, playerIndex)
         if type(item.getFullType) ~= "function" then
             return
         end
-        sendClientCommand(UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
+        sendClientCommand(playerObj, UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
             fromType = item:getFullType(),
             toType = fullType,
         })
@@ -90,7 +90,7 @@ function ISInventoryPaneContextMenu.onClothingItemExtra(item, extra, playerObj)
         local fullType = UmaBoid.resolveFullType(item, extra)
         if fullType and UmaBoid.isAllowedSwitch(item, fullType) then
             if type(item.getFullType) == "function" then
-                sendClientCommand(UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
+                sendClientCommand(playerObj, UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
                     fromType = item:getFullType(),
                     toType = fullType,
                 })
