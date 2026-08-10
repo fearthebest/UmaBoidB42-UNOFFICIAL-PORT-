@@ -2043,7 +2043,8 @@ module Base
 		NeedToBeLearn = true,
 		inputs
 		{
-			item 1 [Base.WaterBottleFull] mode:destroy,
+			item 1 [Base.WaterBottle;Base.WaterBottleEmpty] mode:destroy,
+			-fluid 1.0 [Water;CarbonatedWater],
 			item 2 [Base.Sugar] mode:destroy,
 		}
 		outputs

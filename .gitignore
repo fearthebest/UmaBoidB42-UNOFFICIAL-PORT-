@@ -1,0 +1,17 @@
+# Local / IDE
+.cursor/
+private/
+*.log
+console.txt
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Never commit personal absolute paths overlay
+.env

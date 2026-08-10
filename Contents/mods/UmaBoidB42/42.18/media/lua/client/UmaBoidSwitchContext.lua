@@ -34,12 +34,12 @@ function UmaBoidSwitchContext.onSwitch(item, targetType, playerIndex)
         return
     end
 
-    if UmaBoid.requestAuthorityAction() then
-        if type(item.getFullType) ~= "function" then
+    if UmaBoid.useServerCommandFromClient() then
+        if type(item.getID) ~= "function" then
             return
         end
         sendClientCommand(playerObj, UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
-            fromType = item:getFullType(),
+            itemId = item:getID(),
             toType = fullType,
         })
         return
@@ -83,20 +83,3 @@ function UmaBoidSwitchContext.addOptions(playerIndex, context, items)
 end
 
 Events.OnFillInventoryObjectContextMenu.Add(UmaBoidSwitchContext.addOptions)
-
-local originalOnClothingItemExtra = ISInventoryPaneContextMenu.onClothingItemExtra
-function ISInventoryPaneContextMenu.onClothingItemExtra(item, extra, playerObj)
-    if item and UmaBoid.isUmaBoidClothing(item) and UmaBoid.requestAuthorityAction() then
-        local fullType = UmaBoid.resolveFullType(item, extra)
-        if fullType and UmaBoid.isAllowedSwitch(item, fullType) then
-            if type(item.getFullType) == "function" then
-                sendClientCommand(playerObj, UmaBoid.MOD_ID, UmaBoid.CMD.CostumeSwitch, {
-                    fromType = item:getFullType(),
-                    toType = fullType,
-                })
-                return
-            end
-        end
-    end
-    originalOnClothingItemExtra(item, extra, playerObj)
-end

@@ -28,40 +28,29 @@ local function handleCostumeSwitch(player, args)
     if not player or type(args) ~= "table" then
         return
     end
-    if not UmaBoid.runsOnAuthorityJvm() then
-        return
-    end
 
-    local fromFullType = args.fromType
+    local itemId = args.itemId
     local toFullType = args.toType
-    if type(fromFullType) ~= "string" or type(toFullType) ~= "string" then
+    if type(itemId) ~= "number" or type(toFullType) ~= "string" then
         return
     end
     if onCooldown(switchCooldown, player, SWITCH_COOLDOWN_MS) then
         return
     end
 
-    if not UmaBoid.isAllowedSwitchForFullTypes(fromFullType, toFullType) then
-        print("[UmaBoid] costume switch rejected: invalid target for " .. player:getUsername())
-        return
-    end
-
-    local item = UmaBoid.findPlayerItemByFullType(player, fromFullType)
+    local item = UmaBoid.findPlayerItem(player, itemId)
     if not item then
         print("[UmaBoid] costume switch rejected: item not found for " .. player:getUsername())
         return
     end
 
     if not UmaBoid.performCostumeSwitch(player, item, toFullType) then
-        print("[UmaBoid] costume switch rejected: switch failed for " .. player:getUsername())
+        print("[UmaBoid] costume switch rejected: invalid target for " .. player:getUsername())
     end
 end
 
 local function handleToughnessPain(player, args)
     if not player or type(args) ~= "table" then
-        return
-    end
-    if not UmaBoid.runsOnAuthorityJvm() then
         return
     end
 

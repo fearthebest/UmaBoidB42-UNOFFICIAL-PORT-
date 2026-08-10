@@ -80,6 +80,34 @@ module Base
 		texture = Items\TP_Drink,
 	}
 
+	item WaterBottleEmpty
+	{
+		DisplayCategory = Junk,
+		ItemType = base:normal,
+		Weight = 0.1,
+		Icon = WaterBottle,
+		IconColorMask = WaterBottle_Mask2,
+		IconFluidMask = WaterBottle_Mask,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleEmpty,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromLakeSound = GetWaterFromLakeBottle,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+		Tags = base:cookablemicrowave,
+		component FluidContainer
+		{
+			ContainerName = BottlePlastic,
+			Capacity = 1.0,
+			CustomDrinkSound = DrinkingFromBottlePlastic,
+			Fluids
+			{
+				fluid = Water:1.0,
+				fluid = CarbonatedWater:1.0,
+			}
+		}
+	}
+
 	item UmaDrink
 	{
 	    DisplayCategory = Food,

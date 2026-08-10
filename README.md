@@ -1,46 +1,53 @@
 # UmaBoid B42 — Unofficial Port
 
-Unofficial Build 42 compatibility port of **UmaBoid** (Uma Musume costumes for Project Zomboid). This repository contains compatibility fixes only. All original assets and core mod credit belong to the upstream author(s).
+Unofficial Build 42 compatibility port of **UmaBoid** (Uma Musume costumes for Project Zomboid). Compatibility fixes only; original assets and credit belong to upstream author(s).
 
 | | |
 |---|---|
-| **Version** | 1.3.3 |
+| **Version** | 0.0.3 |
 | **Target build** | B42 Unstable (42.18+) |
-| **Mod ID** | `UmaBoidB42` |
-| **Maintainer** | IKappaID (port only) |
+| **Mod ID** | `UmaBoid_B42_Miroki` |
+| **Workshop ID** | `3722974110` |
 
-## Overview
+## Repository layout
 
-This port adapts the original UmaBoid costume mod for Project Zomboid Build 42. Changes include script syntax, item display categories, distributions, registry updates, and dedicated MP fixes for costume switching.
-
-## Repository structure
+**Published mod package** (must match Steam Workshop exactly):
 
 ```text
-.
-├── README.md
-├── workshop.txt
-├── preview.png          # optional Workshop preview
-└── Contents/
-    └── mods/
-        └── UmaBoidB42/
-            ├── mod.info
-            ├── 42/
-            └── 42.18/
+workshop.txt
+preview.png
+Contents/mods/UmaBoidB42/
+  mod.info          # redirect stub
+  42.18/            # live build
+    mod.info
+    media/
 ```
 
-## Installation
+**GitHub-only** (not uploaded to Steam):
 
-1. Copy this repository (or the Workshop upload folder) into your Steam Workshop content path, or extract `Contents/mods/UmaBoidB42` into `%UserProfile%\Zomboid\mods\`.
-2. Enable **UmaBoid (Uma Musume Costumes for Project Zomboid) - B42 Port** in the mod list.
+```text
+README.md
+scripts/            # sync + validation helpers
+.gitignore
+```
+
+Do not put docs, scripts, or changelogs under `Contents/`.
+
+## Maintainer workflow
+
+1. Edit mod Lua/scripts in your dev tree (`UmaBoidB42/Contents/...`).
+2. `scripts/sync_to_workshop.ps1` → `%USERPROFILE%\Zomboid\Workshop\...`
+3. `scripts/sync_to_github.ps1` → this repo (mirrors Workshop package + dev scripts).
+4. Upload to Steam from the Workshop folder.
+5. Commit and push this repo.
+
+## Installation (players)
+
+Enable **UmaBoid (Uma Musume Costumes for Project Zomboid) - B42 Port** in the mod list (Workshop or copy `Contents/mods/UmaBoidB42` into `%USERPROFILE%\Zomboid\mods\`).
 
 ## Credit
 
-- **Original UmaBoid:** upstream author(s) — assets and design
+- **Original UmaBoid:** upstream author(s)
 - **B42 port:** compatibility maintenance in this repository
 
-## Links
-
-- **Repository:** https://github.com/fearthebest/UmaBoidB42-UNOFFICIAL-PORT-
-- **Maintainer:** https://github.com/fearthebest
-
-This is an unofficial port. Not affiliated with upstream authors or The Indie Stone.
+Unofficial port. Not affiliated with upstream authors or The Indie Stone.

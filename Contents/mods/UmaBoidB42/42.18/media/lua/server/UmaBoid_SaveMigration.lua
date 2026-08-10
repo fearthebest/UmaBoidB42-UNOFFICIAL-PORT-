@@ -9,40 +9,6 @@ require "UmaBoid_Shared"
 
 local OLD_TYPE = "Base.Vodka"
 local NEW_TYPE = "Base.UmaVodka"
-local COSTUME_LOC = ItemBodyLocation.get(ResourceLocation.of("umaboid:costume"))
-
-local function migrateCostumeFromShoes(player)
-    if not player or not COSTUME_LOC then
-        return
-    end
-    if type(player.getWornItem) ~= "function" or type(player.setWornItem) ~= "function" then
-        return
-    end
-
-    local shoesItem = player:getWornItem(ItemBodyLocation.SHOES)
-    if not shoesItem or not UmaBoid.isUmaBoidClothing(shoesItem) then
-        return
-    end
-    if type(shoesItem.getBodyLocation) ~= "function" then
-        return
-    end
-    if shoesItem:getBodyLocation() ~= COSTUME_LOC then
-        return
-    end
-
-    -- Already moved to costume slot.
-    local already = player:getWornItem(COSTUME_LOC)
-    if already == shoesItem then
-        player:setWornItem(ItemBodyLocation.SHOES, nil)
-        return
-    end
-
-    player:setWornItem(ItemBodyLocation.SHOES, nil)
-    player:setWornItem(COSTUME_LOC, shoesItem)
-    if type(shoesItem.setNeedTransmit) == "function" then
-        shoesItem:setNeedTransmit(true)
-    end
-end
 
 local function isCostumeVodka(item)
     if not item or type(item.getFullType) ~= "function" then
@@ -117,16 +83,11 @@ local function migratePlayer(player)
         return
     end
 
-    migrateCostumeFromShoes(player)
-
     if type(player.getWornItems) == "function" then
         local worn = player:getWornItems()
         if worn then
             for i = worn:size() - 1, 0, -1 do
-                local item = nil
-                if type(worn.getItemByIndex) == "function" then
-                    item = worn:getItemByIndex(i)
-                end
+                local item = worn:get(i)
                 if item and isCostumeVodka(item) then
                     local inv = player:getInventory()
                     if inv then
