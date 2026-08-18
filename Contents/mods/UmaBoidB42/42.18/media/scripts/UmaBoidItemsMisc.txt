@@ -80,9 +80,11 @@ module Base
 		texture = Items\TP_Drink,
 	}
 
+	/* Empty refillable bottle returned after drinking Toughness.
+	   Must NOT list Fluids — that would spawn it full (vanilla empties only set Capacity). */
 	item WaterBottleEmpty
 	{
-		DisplayCategory = Junk,
+		DisplayCategory = WaterContainer,
 		ItemType = base:normal,
 		Weight = 0.1,
 		Icon = WaterBottle,
@@ -100,11 +102,6 @@ module Base
 			ContainerName = BottlePlastic,
 			Capacity = 1.0,
 			CustomDrinkSound = DrinkingFromBottlePlastic,
-			Fluids
-			{
-				fluid = Water:1.0,
-				fluid = CarbonatedWater:1.0,
-			}
 		}
 	}
 

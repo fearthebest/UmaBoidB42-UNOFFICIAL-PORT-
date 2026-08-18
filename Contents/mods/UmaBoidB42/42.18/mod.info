@@ -1,6 +1,6 @@
 name=UmaBoid (Uma Musume Costumes for Project Zomboid) - B42 Port
 id=UmaBoid_B42_Miroki
-version=0.0.3
+version=0.0.3.1
 versionMin=42.18
 versionMax=42.99
 pzversion=42

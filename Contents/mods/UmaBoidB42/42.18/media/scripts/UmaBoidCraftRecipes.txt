@@ -2045,7 +2045,7 @@ module Base
 		{
 			item 1 [Base.WaterBottle;Base.WaterBottleEmpty] mode:destroy,
 			-fluid 1.0 [Water;CarbonatedWater],
-			item 2 [Base.Sugar] mode:destroy,
+			item 2 tags[base:sugar],
 		}
 		outputs
 		{

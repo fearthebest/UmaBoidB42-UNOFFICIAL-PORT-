@@ -4,7 +4,7 @@ Unofficial Build 42 compatibility port of **UmaBoid** (Uma Musume costumes for P
 
 | | |
 |---|---|
-| **Version** | 0.0.3 |
+| **Version** | 0.0.3.1 |
 | **Target build** | B42 Unstable (42.18+) |
 | **Mod ID** | `UmaBoid_B42_Miroki` |
 | **Workshop ID** | `3722974110` |

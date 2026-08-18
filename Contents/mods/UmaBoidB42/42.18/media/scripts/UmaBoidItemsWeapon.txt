@@ -55,7 +55,8 @@ module Base
         SwingSound							=	SpearMacheteSwing,
         SoundMap 							= SpearStab SpearMacheteStab,
 		AttachmentType 						= Shovel,
-        Tags 								= FishingSpear,
+        Tags 								= FishingSpear;base:repairwithtape;base:repairwithglue;base:sharpenable;base:hasmetal,
+        Sharpness							=	1.0,
 		DisplayCategory = Weapon,
     }
 	
@@ -115,7 +116,8 @@ module Base
 		HitSound	=	HuntingKnifeHit,
 		SwingSound = HuntingKnifeSwing,
 		AttachmentType = Knife,
-        Tags = FishingSpear,
+        Tags = FishingSpear;base:repairwithtape;base:sharpenable;base:hasmetal,
+        Sharpness = 1.0,
 		BaseSpeed = 0.97,
 		DisplayCategory = Weapon,
     }
@@ -175,7 +177,7 @@ module Base
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
 		AttachmentType = Knife,
-        Tags 								= FishingSpear,
+        Tags 								= FishingSpear;base:repairwithtape,
     }
 
 	model MejiroBrightUmbrellaOpen
@@ -233,7 +235,7 @@ module Base
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
         AttachmentType = Knife,
-        Tags = FishingSpear,
+        Tags = FishingSpear;base:repairwithtape,
     }
 
 	model MejiroBrightUmbrellaClose
@@ -292,7 +294,7 @@ module Base
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
 		 AttachmentType = Knife,
-        Tags 								= FishingSpear,
+        Tags 								= FishingSpear;base:repairwithtape,
     }
 
 	model SweepToshoBroom
@@ -347,6 +349,7 @@ module Base
         MaxDamage	=	1.2,
         BaseSpeed = 0.98,
         AttachmentType = Shovel,
+        Tags = base:repairwithglue;base:repairwithtape,
     }
 
     	model KitasanBlackMochiMallet
@@ -402,6 +405,7 @@ module Base
         MaxDamage	=	1.4,
         BaseSpeed = 0.9,
         AttachmentType = Shovel,
+        Tags = base:repairwithglue;base:repairwithtape,
     }
 
     model SymboliRudolfAcheryTarget
@@ -456,6 +460,7 @@ module Base
         MaxDamage	=	1.2,
         BaseSpeed = 1.00,
         AttachmentType = Shovel,
+        Tags = base:repairwithglue;base:repairwithtape,
     }
 
     model ZennoRobRoyClaymore
@@ -512,7 +517,8 @@ module Base
         BaseSpeed = 0.90,
         WeaponLength = 0.4,
         AttachmentType = BigBlade,
-        Tags = ChopTree;CutPlant,
+        Tags = ChopTree;CutPlant;base:sharpenable;base:hasmetal;base:repairwithtape;base:repairwithepoxy,
+        Sharpness = 1.0,
     }
 
 	model UmaGolfClub
@@ -567,6 +573,7 @@ module Base
         MaxDamage	=   1.3,
         BaseSpeed = 0.98,
         AttachmentType = Shovel,
+        Tags = base:repairwithtape;base:hasmetal,
     }
 
 	model BambooMemoryShinai
@@ -621,6 +628,7 @@ module Base
         MaxDamage	=	1.2,
         BaseSpeed = 0.96,
         AttachmentType = Shovel,
+        Tags = base:repairwithglue;base:repairwithtape,
     }
 
 
@@ -682,7 +690,7 @@ module Base
 		HitSound	=	HuntingKnifeHit,
 		SwingSound = HuntingKnifeSwing,
 		AttachmentType = Knife,
-        Tags = FishingSpear,
+        Tags = FishingSpear;base:repairwithtape;base:hasmetal,
 		BaseSpeed = 0.95,
     }
 
@@ -735,7 +743,7 @@ module Base
         MinDamage	=	0.4,
         MaxDamage	=	0.4,
 		WeaponLength = 0.20,
-		Tags = Write;Pencil,
+		Tags = Write;Pencil;base:repairwithtape,
         BreakSound  =   PenBreak,
         HitFloorSound	= PenHit,
         ImpactSound	=	PenHit,
@@ -812,7 +820,7 @@ module Base
 		HitSound	=	GrassWonderStaffHit,
 		SwingSound = GrassWonderStaffHit,
 		AttachmentType = Shovel,
-        Tags = Sledgehammer,
+        Tags = Sledgehammer;base:repairwithtape;base:repairwithglue;base:hasmetal,
 		BaseSpeed = 1.2
     }
 
@@ -863,7 +871,7 @@ module Base
 		HitSound	=	GrassWonderStaffHit,
 		SwingSound = GrassWonderStaffHit,
 		AttachmentType = Shovel,
-        Tags = Sledgehammer,
+        Tags = Sledgehammer;base:repairwithtape;base:repairwithglue;base:hasmetal,
 		BaseSpeed = 1.2
     }
 
@@ -911,45 +919,4 @@ module Base
         WorldStaticModel = AstonMachanBomb,
 	}
 
-	/* Fixing Recipe */
-	
-	fixing Fix Grass Wonder's Naginata
-	{
-	   Require = Base.GrassWonderNaginata,
-
-       Fixer = Base.Woodglue=2; Woodwork=2,
-       Fixer = Base.DuctTape=2,
-       Fixer = Base.Glue=2,
-       Fixer = Base.Scotchtape=4,
-	}
-	
-	fixing Fix Eishin Flash's Sword
-	{
-	   Require = Base.EishinFlashSword,
-
-       Fixer = Base.Woodglue=2; Woodwork=2,
-       Fixer = Base.DuctTape=2,
-       Fixer = Base.Glue=2,
-       Fixer = Base.Scotchtape=4,
-	}
-
-    fixing Fix Bamboo Memory's Shinai
-	{
-	   Require = Base.BambooMemoryShinai,
-
-       Fixer = Base.Woodglue=2; Woodwork=2,
-       Fixer = Base.DuctTape=2,
-       Fixer = Base.Glue=2,
-       Fixer = Base.Scotchtape=4,
-	}
-
-    fixing Fix Zenno Rob Roy's Claymore
-	{
-	   Require = Base.ZennoRobRoyClaymore,
-
-       Fixer = Base.Woodglue=2; Woodwork=2,
-       Fixer = Base.DuctTape=2,
-       Fixer = Base.Glue=2,
-       Fixer = Base.Scotchtape=4,
-	}
 }
